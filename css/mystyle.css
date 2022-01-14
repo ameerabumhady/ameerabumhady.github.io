@@ -1,0 +1,110 @@
+/* Start general setting css for all  */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+
+}
+/* End general setting css for all  */
+
+/* Start main content style */
+
+.main-content{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: rgba(255, 51, 15, 0.753);
+}
+
+.myShadow{
+    box-shadow: 10px 10px 10px 10px #f18f8f;
+}
+
+
+/* Start main content style */
+
+.user-picture{
+    width: 200px;
+    height: 200px;
+    margin:auto;
+    padding: 10px;
+}
+.user-picture img{
+    border-radius: 50%;
+}
+
+/* Start Name & Username style sheet */
+.username{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+
+}
+.username h1{
+    font-weight: bold;
+    color: rgb(20, 27, 17);
+    font-family:'Times New Roman', Times, serif
+}
+/* End Name & Username styling */
+
+/* Start Social Media icons - quicke Styling */
+.quicke-links{
+    width: 300px;
+    margin: auto;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-social{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+    /* margin: auto; */
+}
+/* End Social Media icons - quicke Styling */
+
+
+/*  Start direct links and other links styling  */
+.direct-links{
+    width: 450px;
+    margin: auto;
+}
+
+.direct-links a{
+    text-decoration: none;
+}
+
+.flex-column {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-flex{
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 450px;
+}
+.link-flex h2{
+    display: inline-block;
+    margin-left: 30px;
+}
+.dir-link-icon{
+    width: 50px;
+    height: 50px;
+}
+.link-flex button{
+    text-align: right;
+}
+/*  End direct links and other links styling  */
